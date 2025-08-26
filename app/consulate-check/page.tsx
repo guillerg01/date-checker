@@ -59,7 +59,7 @@ export default function ConsulateCheckPage() {
       console.log("Iniciando envío de email de prueba...");
 
       // Usar el endpoint del servidor que usa EmailJS del servidor
-      const response = await fetch("http://localhost:3000/api/test-email", {
+      const response = await fetch("/api/test-email", {
         method: "POST",
       });
 
